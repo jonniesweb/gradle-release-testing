@@ -28,7 +28,7 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'com.jfrog.artifactory'
 apply plugin: 'maven-publish'
 
-version = '0.1.0'
+//version = project.version.toString()
 sourceCompatibility = 1.8
 group 'com.travelclick.gms'
 
