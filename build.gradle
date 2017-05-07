@@ -63,6 +63,7 @@ artifactory {
         defaults {
             publications 'mavenJava'
             publishArtifacts = true
+            publishBuildInfo = false
         }
     }
     resolve {
